@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+
+import First from './first';
+import Fourth from './footer';
+import Header from './header';
+import './myStyle.css'
+import Second from './second';
+import Third from './third';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header />
+        <First />
+        <Second />
+        <Third />
+        <Fourth />
+
+
+      {/* <div>
+        <div>
+
+        </div>
+        <div>
+          <h4>Bring everyone together to build better project</h4>
+          <p>manage makes it simple for software teams to plan day-to-daytask while keeping 
+            the larger team goals in view
+          </p>
+          <button>get started</button>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <h4>whats differnt about manage</h4>
+          <p>manage provides all the functionality your team needs,without the complexcity.
+            our software is a tailor made for modern digital product teams.
+          </p>
+
+
+        </div>
+        <div>
+
+        </div>
+      </div> */}
+
     </div>
   );
 }
